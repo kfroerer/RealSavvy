@@ -1,0 +1,7 @@
+{
+	"staging": {
+		"url": "https://builder-staging2.realsavvy.com",
+		"email": "staging2test@realsavvy.com",
+		"api_key": "9903cefc5e503d7a4584b4a033cdd226ce341b66"
+	}
+}

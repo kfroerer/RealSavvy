@@ -1,0 +1,42 @@
+{
+  "name": "sample",
+  "handle": "sample",
+  "description": "Please insert a description here",
+  "blocks": [
+    {
+      "label": "header",
+      "type": "header",
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "Want a vacation home?"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "default": "Let us help."
+        },
+        {
+          "name": "contactButton",
+          "type": "string",
+          "default": "Contact Us"
+        },
+        {
+          "name": "background",
+          "type": "image",
+          "default": "https://cdn.pixabay.com/photo/2015/08/24/20/11/greece-905557_960_720.jpg"
+        }
+      ]
+    }
+  ],
+  "style": [],
+  "default_pages": [
+    {
+      "title": "Home page",
+      "slug": "index",
+      "position": 0,
+      "blocks": []
+    }
+  ]
+}

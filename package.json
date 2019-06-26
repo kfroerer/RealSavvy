@@ -1,0 +1,47 @@
+{
+  "name": "KendraSample",
+  "description": "Locomotive SiteBuilder Themes project",
+  "author": "Kendra",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "watch": "brunch w",
+    "server": "babel-watch local-server.js -w app/themes -e js,jsx,es6",
+    "prod": "brunch build --production",
+    "build": "brunch build",
+    "test": "node test.js",
+    "start": "npm-run-all -p -r watch server",
+    "heroku-postbuild": "echo Skip build on Heroku"
+  },
+  "dependencies": {
+    "locomotive-site-builder-rendering": "1.1.0-rc.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "~6.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "brunch": "brunch/brunch",
+    "clean-css-brunch": "^2.10.0",
+    "css-brunch": "^2.10.0",
+    "sass-brunch": "^2.10.4",
+    "javascript-brunch": "^2.10.0",
+    "uglify-js-brunch": "^2.10.0",
+    "after-brunch": "0.0.5",
+    "jquery": "^3.2.1",
+    "npm-run-all": "^4.1.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}

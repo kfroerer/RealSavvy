@@ -1,0 +1,38 @@
+.header-block {
+  position: relative;
+  .title {
+    font-size: 50px;
+    position: absolute;
+    width: 100%;
+  top: 30%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .subtitle {
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: sans-serif;
+
+  }
+  img {
+    width: 100%;
+  }
+  #contactButton {
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    opacity: .75;
+    left: 50%;
+    transform: translateX(-50px);
+    font-size: 20px;
+    bottom: 10%;
+    font-family: sans-serif;
+  }
+}

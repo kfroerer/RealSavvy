@@ -1,0 +1,31 @@
+{
+  "site": {
+    "id": 1,
+    "name": "My site",
+    "handle": "my-site",
+    "theme_handle": "sample",
+    "style": {},
+    "metadata": {}
+  },
+  "page": {
+    "id": 1,
+    "title": "Home page",
+    "slug": "index",
+    "seo_title": "Home page",
+    "position": 1,
+    "site_id": 1,
+    "content": {
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "title": "Want a vacation home?",
+            "subtitle": "Let us help",
+            "contactButton": "Contact Us",
+            "background": "https://cdn.pixabay.com/photo/2015/08/24/20/11/greece-905557_960_720.jpg"
+          }
+        }
+      ]
+    }
+  }
+}

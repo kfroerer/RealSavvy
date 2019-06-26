@@ -1,0 +1,36 @@
+{
+  "name": "KendraSample",
+  "description": "SiteBuilder rendering stack",
+  "author": "Kendra",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel ./src -d ./lib",
+    "devStart": "env $(cat .env | xargs) supervisor -w .,lib -e node,js,jsx,es6 index.js",
+    "devBuild": "babel ./src -d ./lib -w",
+    "heroku-postbuild": "echo Skip build on Heroku"
+  },
+  "dependencies": {
+    "locomotive-site-builder-rendering": "1.1.0-rc.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
